@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;   
+}
+
+.assistance .icon {
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+li {
+    margin-right: 23px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    border-right: 2px solid  #939191;
+}
+
+.assistance-text p {
+    font-size: 16px;
+}
+
+.assistance-text h6 {
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    
+}
+
+#major-section-1 .flex {
+    justify-content: center;
+    align-items: center;
+}
+
+#major-section-1, #quote-section {
+    padding: 60px 0;
+}
+
+#major-section-1 .left-section, #major-section-1 .right-section{
+    width: 50%;
+}
+
+#major-section-1 .right-section {
+    background-image: url(../imgs/Mechanic.png);
+    background-size: cover;
+    background-position: left;
+    height: 69vh;
+   
+}
+
+#major-section-1 .left-section h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.orange-button {
+    padding: 12px 30px;
+    background:  #FF6433;
+    border-radius: 12px;
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    
+}
+
+.time-section {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.clock {
+    height: 31px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.text-section h5{
+    color: #939191;
+    font-weight: 500;
+}
+
+#quote-section {
+    background: #E2E6E9;
+    height: 100vh;
+   
+
+   
+}
+
+#quote-section .quote-text, #quote-section .quote-form {
+    width: 45%;
+    margin-top: 100px;
+
+}
+
+#quote-section ul {
+    list-style: none;
+
+}
+
+#quote-section ul li{
+    margin-bottom: 15px;
+}
+
+#quote-section .quote-text h2{
+    font-size: 52px;
+    margin-bottom: 30px;
+
+}
+
+
+#quote-section .quote-text .gear, .man, .dollarsign {
+    width: 5%;
+    margin-right: 5px;
+}
+
+#quote-section .quote-text .gear, .man, .dollarsign img{
+    width: 100%;
+}
+
+#quote-section .quote-text .gear-text, .man-text, .dollarsign-text h6{
+    font-size: 12px;
+}
+
+#quote-section .quote-text .gear-text, .man-text, .dollarsign-text p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.quote-form h3{
+    font-size: 40px;
+}
+
+
+.form-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2px; 
+    outline: none; 
+    
+}
+
+.quote-form a {
+    margin-top: 20px;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    height: 80vh;
+   
+   
+}
+
+#third-section .text2-section, #third-section .list-section {
+   
+    width: 50%;
+    margin-top: 100px;   
+}
+
+#third-section .text2-section {
+   margin-top: 140px;
+}
+
+.text2-section p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.text2-section h5 {
+    font-size: 14px;
+}
+
+#third-section .quote-text .gear, .man, .image-box {
+    width: 5%;
+    margin-right: 5px;
+}
+
+#third-section .list-section .gear, .man, .image-box img{
+    width: 100%;
+}
+
+#third-section .list-section .dollarsign-text h6{
+    font-size: 16px;
+}
+
+
+#third-section .list-section .dollarsign-text p{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+#third-section ul {
+    list-style: none;
+}
+
+#third-section ul li {
+    margin-bottom: 24px;
+}
+
+#fourth-section {
+    background: #F2F2F2;
+    height: 100vh;
+
+}
+
+.headerr {
+    text-align: center;
+    
+}
+
+.headerr h4 {
+   padding-top: 60px;
+}
+
+.headerr p {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+
+.flex-1 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.flex-1 ul li{
+   
+    margin-right: 7px;
+    margin-bottom: 0;
+}
+
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+
+.flex-2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: 170px;
+}
+
+.flex-2 ul li{
+   
+    margin-right: 7px;
+    margin-bottom: 0;
+}
+
+.offers {
+    padding: 40px;
+    width: 180px;
+    height: 120px;
+    background: white;
+}
+
+.offer-image {
+   width: 20%;
+   margin-left: 40px;
+}
+
+.offer-image img{
+    width: 100%;
+}
+
+.orange-highlight {
+    background: #FF6433;
+}
+
+.offer-image, .offer-text {
+    text-align: center;
+}
+
+.learn {
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 200px;
+}
+
+#fifth-section {
+    height: 70vh;
+}
+
+.fifth-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    height: 300px;
+}
+
+.image-1, .image-2 {
+    width: 50%;
+   background: url(../imgs/whitecar.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.image-2 {
+    width: 50%;
+    background: url(../imgs/jumper.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.image-1 p {
+    font-size: 32px;
+    color: white;
+    padding-top: 70px;
+    padding-left: 30px;
+    height: 300px;
+    background-color: #FF6433;
+    margin-left: 300px;
+}
+
+.text-container ul {
+    list-style: none;
+
+}
+
+.blue-text h3 {
+    color: #661CE7;
+    font-size: 32px;
+
+}
+
+.text-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 250px;
+}
+
+.tiny-text, .blue-text{
+    text-align: left;
+}
+
+#sixth-section {
+    height: 80vh;
+}
+
+.sixth-container{
+    height: 65vh;
+    background:#FAFAFA;
+}
+
+
+.brand-text p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.brand-flex ul {
+    list-style: none;
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-flex1 ul {
+    list-style: none;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sixth-section .brands-image {
+    width: 15%;
+    margin-right: 5px;
+}
+
+#sixth-section .brands-image img{
+    width: 100%;
+}
