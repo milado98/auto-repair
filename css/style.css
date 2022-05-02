@@ -83,7 +83,7 @@ a {
     background-image: url(../imgs/Mechanic.png);
     background-size: cover;
     background-position: left;
-    height: 69vh;
+    min-height: 69vh;
    
 }
 
@@ -123,7 +123,7 @@ a {
 
 #quote-section {
     background: #E2E6E9;
-    height: 100vh;
+    min-height: 100vh;
    
 
    
@@ -190,7 +190,7 @@ a {
 .container2 {
     width: 90%;
     margin: 0 auto;
-    height: 80vh;
+    min-height: 80vh;
    
    
 }
@@ -243,7 +243,7 @@ a {
 
 #fourth-section {
     background: #F2F2F2;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -335,7 +335,7 @@ a {
 }
 
 #fifth-section {
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .fifth-container {
@@ -348,7 +348,7 @@ a {
     height: 300px;
 }
 
-.image-1, .image-2 {
+.image-1 {
     width: 50%;
    background: url(../imgs/whitecar.png);
    background-position: center;
@@ -396,11 +396,11 @@ a {
 }
 
 #sixth-section {
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .sixth-container{
-    height: 65vh;
+    min-height: 65vh;
     background:#FAFAFA;
 }
 
@@ -433,4 +433,115 @@ a {
 
 #sixth-section .brands-image img{
     width: 100%;
+}
+
+/* Mobile View  */
+@media (max-width: 426px) {
+
+    .first-header {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 850px;
+        display: none;
+    }
+
+    .nav-bar .menu {
+        border: none;
+        width: 100%;
+       
+    }
+    .nav-bar .menu ul {
+        flex-direction: column;
+        font-size: 25px;
+      
+    }
+
+    .nav-bar .menu ul li {
+        padding: 10px 0;
+        margin-right: 0;
+        display: block;
+    }
+
+    .nav-bar .menu ul li a {
+        display: block;
+    }
+
+    .assistance {
+        padding: 10px 0;
+    }
+
+    .flex-sm-column {
+        flex-direction: column;
+    }
+
+    #major-section-1 .left-section, #major-section-1 .right-section{
+        width: 100%;   
+    }
+
+    #major-section-1 .left-section h1{
+        font-size: 35px;  
+    }
+
+    #major-section-1 .left-section {
+        order: 2;
+    }
+
+    #major-section-1 .right-section{
+        order: 1;
+    }
+
+    .flex-1, .flex-2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+   #quote-section .quote-text,  #quote-section .quote-form {
+    width: 100%;
+   }
+
+   #third-section .text2-section, #third-section .list-section {
+   width: 100%;
+   }
+
+   .offer-image h3 {
+       padding-bottom: 10px;
+       text-align: center;
+   }
+
+   .learn {
+       padding-bottom: 20px;
+       padding-left: 0px;
+   }
+
+  
+   .tiny-text p {
+       text-align: left;
+       padding-bottom: 50px;
+       padding-left: 30px;    
+   }
+
+   .brand-flex {
+       flex-direction: column;
+       flex-wrap: wrap;
+   }
+   
+   .brand-flex .offer-text p, .brand-flex1 .offer-text p{
+       padding: 10px 0;
+   }
+
+   .text-container ul {
+       padding: 45px 0;
+   }
+
+   
+
+  
+
+   
 }
