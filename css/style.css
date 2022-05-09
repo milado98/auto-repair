@@ -176,10 +176,11 @@ a {
 
 .form-input input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     font-size: 15px;
     border-radius: 2px; 
-    outline: none; 
+    margin-bottom: 2px;
+    border: none;
     
 }
 
@@ -435,6 +436,98 @@ a {
     width: 100%;
 }
 
+
+/* TABLET VIEW  */
+@media (max-width: 769px) and (min-width: 481px) {
+    .first-header {
+        display: flex;
+        justify-content: space-between;
+        width: 650px;
+    }
+
+    .first-header .container {
+    
+    }
+
+    .menu ul li {
+        font-size: 14px;
+    }
+
+    .assistance-text p {
+        font-size: 14px;
+    }
+
+    .assistance-text h6 {
+        font-size: 12px;
+    }
+
+
+    .quote-form {
+        padding-left: 40px;
+    }
+
+    .offers {
+        padding: 30px;
+        width: 120px;
+        height: 120px;
+        background: white;
+    }
+    
+    .offer-image {
+       width: 30%;
+       margin: 0 auto;
+      
+    }
+    
+    .offer-image img{
+        width: 100%;
+
+    }
+    
+    .orange-highlight {
+        background: #FF6433;
+    }
+    
+    .offer-text p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flex-1 ul, .flex-2 ul {
+        margin: 0 auto;
+    }
+
+    .flex-1 ul {
+        margin-bottom: 10px;
+    }
+
+    .learn {
+        padding-bottom: 30px;
+    }
+
+    .orange-bg {
+        display: none;
+    }
+  
+    .text-container ul {
+        padding: 40px 5px;
+    }
+
+
+    .blue-text h3{
+        font-size: 25px;
+    }
+
+    .brands-image {
+        display: none;    
+    }
+
+    #sixth-section .offer-text p {
+        font-size: 14px;    
+    }
+
+}
+
 /* Mobile View  */
 @media (max-width: 426px) {
 
@@ -496,6 +589,10 @@ a {
         order: 1;
     }
 
+    #fourth-section .flex {
+        margin: 0 auto;
+    }
+
     .flex-1, .flex-2 {
         flex-direction: column;
         flex-wrap: wrap;
@@ -539,9 +636,24 @@ a {
        padding: 45px 0;
    }
 
-   
+   #sixth-section .brand-flex li,  #sixth-section .brand-flex1 li {
+       
+   }
 
-  
+   #sixth-section .flex-sm {
+    display: flex;
+    flex-wrap: wrap;
+   }
 
+   #sixth-section .flex-sm .flex-sm-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+   }
    
 }
+
+
+
